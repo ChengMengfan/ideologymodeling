@@ -203,4 +203,8 @@ mean((ridge.pred-y.test)^2)
 
 # refit our ridge regression model on the full data set #
 out=glmnet(x,y,alpha=0)
+<<<<<<< HEAD
 predict(out,type="coefficients",s=bestlam)[1:20,]
+=======
+predict(out,type="coefficients",s=bestlam)[1:20,]
+>>>>>>> d1f168692e6db4d5299ab178ab3105d42a25715a
